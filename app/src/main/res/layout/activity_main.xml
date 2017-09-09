@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkcyan"
+    android:orientation="vertical"
+    tools:context="com.example.anderson.showdeofertas.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:onClick="appIniciar"
+        android:text="Show"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:onClick="appIniciar"
+        android:text="de"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:onClick="appIniciar"
+        android:text="Ofertas"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textSize="50sp" />
+</LinearLayout>
